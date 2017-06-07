@@ -2,7 +2,7 @@
 * @Author: Mark Eliasen
 * @Date:   2017-03-01 17:44:28
 * @Last Modified by:   Mark Eliasen
-* @Last Modified time: 2017-04-29 23:57:52
+* @Last Modified time: 2017-06-07 16:49:49
 */
 const path = require('path');
 const webpack = require('webpack');
@@ -14,7 +14,7 @@ module.exports = {
 
   output: {
     // the output bundle
-    path: path.resolve(__dirname, 'dist') + '/[hash]',
+    path: path.resolve(__dirname, 'dist'),
     filename: 'output.[hash].bundle.js',
     chunkFilename: '[id].[hash].bundle.js',
   },
@@ -66,8 +66,20 @@ module.exports = {
         //exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpg|wav|mp3)$/,
-        loader: 'url-loader?limit=4096',
+        test: /\.(png|jpg|gif)$/,
+        loader: 'file-loader',
+        query: {
+          name: '[name]-[hash].[ext]',
+          outputPath: 'assets/images/',
+        },
+      },
+      {
+        test: /\.(wav|mp3)$/,
+        loader: 'file-loader',
+        query: {
+          name: '[name]-[hash].[ext]',
+          outputPath: 'assets/sounds/',
+        },
       },
     ],
   },

@@ -1,6 +1,6 @@
 [
     {
-        "section": "Memes",
+        "section": "Random/Misc",
         "sounds": [
             {
                 "title": "Brekfest",
@@ -18,6 +18,16 @@
         ]
     },
     {
+        "section": "Simposons",
+        "sounds": [
+            {
+                "title": "Is cat now!",
+                "filename": "is-cat-now.mp3",
+                "volume": 1.0
+            }
+        ]
+    },
+    {
         "section": "Rick & Morty",
         "sounds": [
             {
@@ -29,6 +39,22 @@
                 "title": "Hes trying",
                 "filename": "oooh-hes-tryin.mp3",
                 "volume": 1.0
+            },
+            {
+                "title": "Waay upside your butthole",
+                "filename": "waay-upside-your-butthole.mp3"
+            },
+            {
+                "title": "As far as they can fit",
+                "filename": "as-far-as-they-can-fit.mp3"
+            },
+            {
+                "title": "I'm Mr Meeseeks",
+                "filename": "im-mr-meeseeks.mp3"
+            },
+            {
+                "title": "I will mess with time",
+                "filename": "mess-with-time.mp3"
             }
         ]
     },
@@ -57,11 +83,32 @@
             {
                 "title": "Just Do it",
                 "filename": "just-do-it.mp3"
+            },
+            {
+                "title": "Shazaam!",
+                "filename": "shazaam.mp3"
+            },
+            {
+                "title": "Get some money for this",
+                "filename": "money-for-this.mp3"
             }
         ]
     },
     {
         "section": "South Park",
-        "sounds": []
+        "sounds": [
+            {
+                "title": "Smush Smush",
+                "filename": "smush-smush.mp3"
+            },
+            {
+                "title": "Need about 3.50",
+                "filename": "three-fiddy.mp3"
+            },
+            {
+                "title": "No god damn 3.50",
+                "filename": "no-three-fiddy.mp3"
+            }
+        ]
     }
 ]
