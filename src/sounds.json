@@ -1,0 +1,54 @@
+[
+    {
+        "section": "Memes",
+        "sounds": [
+            {
+                "title": "Brekfest",
+                "filename": "beakfast.mp3"
+            },
+            {
+                "title": "Ey b0ss",
+                "filename": "ey-b0ss.mp3"
+            },
+            {
+                "title": "Yeee",
+                "filename": "yeee.mp3",
+                "volume": 0.6
+            }
+        ]
+    },
+    {
+        "section": "Rick & Morty",
+        "sounds": [
+            {
+                "title": "Can dooo!",
+                "filename": "can-dooo.mp3",
+                "volume": 1.0
+            },
+            {
+                "title": "Hes trying",
+                "filename": "oooh-hes-tryin.mp3",
+                "volume": 1.0
+            }
+        ]
+    },
+    {
+        "section": "Voice Clips",
+        "sounds": [
+            {
+                "title": "How 'bout no!",
+                "filename": "how-about-no.mp3",
+                "volume": 1.0
+            },
+            {
+                "title": "Hah! Gaaay!",
+                "filename": "hah-gaaay.mp3",
+                "volume": 1.0
+            },
+            {
+                "title": "Balls of Steel",
+                "filename": "balls-of-steel.mp3"
+            }
+        ]
+    }
+]
