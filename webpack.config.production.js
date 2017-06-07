@@ -2,7 +2,7 @@
 * @Author: Mark Eliasen
 * @Date:   2017-03-01 17:44:28
 * @Last Modified by:   Mark Eliasen
-* @Last Modified time: 2017-06-07 16:49:49
+* @Last Modified time: 2017-06-07 17:29:46
 */
 const path = require('path');
 const webpack = require('webpack');
@@ -77,7 +77,7 @@ module.exports = {
         test: /\.(wav|mp3)$/,
         loader: 'file-loader',
         query: {
-          name: '[name]-[hash].[ext]',
+          name: '[name].[ext]',
           outputPath: 'assets/sounds/',
         },
       },
