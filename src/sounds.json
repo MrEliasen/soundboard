@@ -48,7 +48,20 @@
             {
                 "title": "Balls of Steel",
                 "filename": "balls-of-steel.mp3"
+            },
+            {
+                "title": "Mi Scusi",
+                "filename": "mi-scusi.mp3",
+                "volume": 1.0
+            },
+            {
+                "title": "Just Do it",
+                "filename": "just-do-it.mp3"
             }
         ]
+    },
+    {
+        "section": "South Park",
+        "sounds": []
     }
 ]
