@@ -2,7 +2,7 @@
 * @Author: Mark Eliasen
 * @Date:   2017-03-28 16:51:40
 * @Last Modified by:   Mark Eliasen
-* @Last Modified time: 2017-06-07 17:40:45
+* @Last Modified time: 2017-06-09 12:11:24
 */
 
 import React from 'react';
@@ -23,11 +23,18 @@ class Home extends React.Component {
 
     componentDidMount() {
         this.setState({sounds: Sounds});
+        this.updateSoundCount();
     }
 
     updateSoundCount() {
-        let total = this.state.total;
-        total += 1;
+        let total = 0;
+
+        Sounds.map((s, k) => {
+            s.sounds.map((sd, k2) => {
+                total += 1;
+            });
+        });
+
         this.setState({total});
     }
 
@@ -56,7 +63,6 @@ class Home extends React.Component {
                                     title={sd.title}
                                     filename={sd.filename}
                                     volume={sd.volume || 0.5}
-                                    updateSoundCount={this.updateSoundCount}
                                 />)
                             }
                         </div>)

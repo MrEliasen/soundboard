@@ -2,7 +2,7 @@
 * @Author: mark
 * @Date:   2017-06-07 11:17:34
 * @Last Modified by:   Mark Eliasen
-* @Last Modified time: 2017-06-07 17:39:20
+* @Last Modified time: 2017-06-09 12:10:22
 */
 
 import React from 'react';
@@ -17,7 +17,6 @@ class SoundButton extends React.Component {
 
         this.sound = new Audio();
         this.sound.addEventListener('canplaythrough', () => {
-            props.updateSoundCount();
             this.setState({ready: true});
         }, false);
         this.sound.addEventListener('play', () => {
